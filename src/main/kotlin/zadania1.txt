@@ -1,0 +1,56 @@
+1. Napisz program, który wyświetli w pierwszym wierszu Twoje imię i nazwisko, w drugim — ulicę oraz numer
+domu i mieszkania, w trzecim — nazwę miasta i kod pocztowy, w czwartym — numer telefonu, w piątym inicjały
+a w szóstym oczekiwaną roczną pensję. Na początku programu umieść komentarz z dzisiejszą datą.
+Zastosuj najwyżej jedno polecenie println
+
+2. Mieszkanie ma 4 pomieszczenia. 2 pomieszczenia mają wymiary 3 *4 metry, jedno pomieszczenie 2 * 3 metry,
+jedno pomieszczenie 2 *2 metry. Napisz program, który oblicza powierzchnię poszczególnych pomieszczeń oraz powierzchnię
+całkowitą mieszkania, oraz powierzchnię przypadającą na 1 osobę (4 osoby). Program powinien wyświetlać zawartość tych
+zmiennych na ekranie.
+
+3. Zmodyfikuj program z zad. 2 tak, aby użytkownik miał możliwość podania pojedynczych wymiarów każdego pokoju,
+np.:
+    podaj długość pokoju nr1:
+    podaj szerokość pokoju nr1:
+    podaj długość pokoju nr2:
+    podaj szerokość pokoju nr2:
+
+4. Pudełko zawiera 40 ciasteczek. Z informacji na opakowaniu wynika, że pudełko obejmuje 10 porcji, a każda porcja
+ma 300 kalorii. Napisz program, który pozwala użytkownikowi wpisać liczbę zjedzonych ciasteczek, a następnie
+informuje o liczbie skonsumowanych kalorii.
+
+5. W przepisie na ciasteczka podana jest następująca ilość składników:
+    1,5 szklanki cukru,
+    1 szklanka masła,
+    2,75 szklanki mąki.
+Te składniki pozwalają upiec 48 ciasteczek. Napisz program, który wyświetla użytkownikowi prośbę o wpisanie oczekiwanej
+liczby ciasteczek, a następnie informuje, ile szklanek poszczególnych składników potrzeba do uzyskania tej liczby.
+
+6. Gdy bank wypłaca procent składany, płaci odsetki nie tylko od zdeponowanej kwoty, ale też od zakumulowanej
+z czasem kwoty odsetek. Załóżmy, że chcesz zdeponować pewną kwotę na rachunku oszczędnościowym i pozwolić
+na akumulowanie procentu składanego przez określoną liczbę lat. Oto wzór na obliczenie stanu konta po
+określonej liczbie lat:
+A = P(1 +r/n)^nt
+Oto wartości z tego wzoru:
+    A to kwota pieniędzy na koncie po określonej liczbie lat,
+    P to kwota pierwotnie zdeponowana na koncie,
+    r to roczna stopa oprocentowania,
+    n określa, ile razy w roku odsetki są doliczane do kapitału,
+    t to liczba lat.
+Napisz program, który przeprowadza takie obliczenia. Program powinien wyświetlać prośbę o wprowadzenie
+następujących danych:
+    kwoty pieniędzy początkowo zdeponowanej na koncie,
+    rocznej stopy oprocentowania,
+    ile razy w roku odsetki są kapitalizowane (np. przy kapitalizacji miesięcznej wpisz 12,
+        a przy kapitalizacji kwartalnej — 4),
+    liczby lat, przez jakie środki będą znajdować się na koncie i generować odsetki.
+Po wprowadzeniu danych wejściowych program powinien obliczać i wyświetlać kwotę,
+jaka znajdzie się na koncie po określonej liczbie lat.
+
+7.	Napisz program, który wyświetla użytkownikowi prośbę o wprowadzenie nazwy ulubionego miasta.
+Dane wejściowe zapisz w zmiennej typu String. Program powinien wyświetlać następujące informacje:
+    liczbę znaków w nazwie miasta,
+    nazwę miasta zapisaną wielkimi literami,
+    nazwę miasta zapisaną małymi literami,
+    pierwszy znak nazwy miasta.
+

@@ -22,7 +22,7 @@ fun main() {
 
     val average = readln().toInt()
 
-    
+    // https://github.com/przemjan/KursKotlin23
 
 
 
