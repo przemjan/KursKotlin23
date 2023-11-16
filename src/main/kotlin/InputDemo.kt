@@ -2,9 +2,9 @@ import java.util.*
 
 fun main() {
 
-    val klawiatura = Scanner(System.`in`)
-
-    val numerButa = klawiatura.nextInt()
+//    val klawiatura = Scanner(System.`in`)
+//
+//    val numerButa = klawiatura.nextInt()
 
     println("Podaj numer buta: ")
     var numerButa1 = readln()
@@ -22,7 +22,7 @@ fun main() {
 
     val average = readln().toInt()
 
-    // https://github.com/przemjan/KursKotlin23
+    // https://github.com/przemjanisz/KursKotlin23
 
 
 
