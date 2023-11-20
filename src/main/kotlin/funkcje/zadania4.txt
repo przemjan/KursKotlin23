@@ -27,7 +27,21 @@ w metrach kwadratowych. W programie należy umieścić funkcje zwracające nast�
   -	łączny koszt malowania.
 Program powinien wyświetlać te dane na ekranie.
 
-4. Napisz program, która w tablicy wartości typu double zapisuje łączny poziom
+4. Operacje na tablicach
+   Napisz program obejmujący tablicę zainicjowaną danymi testowymi. Posłuż się dowolnym
+   wybranym prostym typem danych. W programie dostępne powinny być następujące
+   funkcje:
+   -  getTotal. Ta funkcja powinna przyjmować jako argument tablicę
+   jednowymiarową i zwracać sumę wartości z tej tablicy.
+    - getAverage. Ta funkcja powinna przyjmować jako argument tablicę
+   jednowymiarową i zwracać średnią wartości z tej tablicy.
+   -  getHighest. Ta funkcja powinna przyjmować jako argument tablicę
+   jednowymiarową i zwracać największą wartość z tej tablicy.
+   -  getLowest. Ta funkcja powinna przyjmować jako argument tablicę
+   jednowymiarową i zwracać najmniejszą wartość z tej tablicy.
+   Zademonstruj działanie każdej funkcji z tego programu.
+
+5. Napisz program, która w tablicy wartości typu double zapisuje łączny poziom
 opadów z każdego z 12 miesięcy. Program mieć funkcje zwracające następujące
 dane:
  - łączny poziom opadów z danego roku,
@@ -41,7 +55,7 @@ Napisz w programie funckję, która przyjmuje dwa argumenty: tablicę i liczbę 
 że ta tablica zawiera liczby całkowite. Funkcja powinna zwracać wszystkie zapisane
 w tablicy liczby, które są większe od n. Przetestuj działanie funkcji w kompletnym programie.
 
-6. Napisz program, który wyświetla prośbę o wprowadzenie odległości w metrach. Następnie program powinien udostępniać menu z takimi oto opcjami:
+7. Napisz program, który wyświetla prośbę o wprowadzenie odległości w metrach. Następnie program powinien udostępniać menu z takimi oto opcjami:
 1. konwersja na kilometry,
 2. konwersja na cale,
 3. konwersja na stopy,
@@ -84,7 +98,7 @@ Podaj wybraną opcję: 4 [Enter]
 Żegnaj
 
 
-7. „Kamień, papier, nożyce”
+8. „Kamień, papier, nożyce”
 Napisz program, który umożliwia grę w „kamień, papier, nożyce” z komputerem.
 Program powinien działać w następujący sposób:
    1. Gdy program rozpoczyna pracę, generowana jest liczba losowa z przedziału od 1 do 3. Jeśli ta liczba to 1,

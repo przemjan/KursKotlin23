@@ -22,6 +22,7 @@ fun main() {
 
 
     val myIterator = myArray.iterator()
+
     while(myIterator.hasNext()){
         val numer = myIterator.next()
         println(numer)

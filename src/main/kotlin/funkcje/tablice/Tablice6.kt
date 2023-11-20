@@ -21,8 +21,6 @@ fun main() {
     val countriesArray = arrayOf(
         arrayOf("Venezuela", "Brazylia", "Chile"),
         arrayOf("Kongo", "Maroko", "Somalia")
-        //intArrayOf(1,23,45)
-        //doubleArrayOf(2.9,3.9,4.5)
     )
 
     println("Chodzenie po tablicach wielowymiarowych")

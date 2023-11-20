@@ -16,9 +16,10 @@ fun main() {
 
     println(tablica1[0])
 
+    //IntArray jest szybsza
     val tablica2 = IntArray(4)
 
-    println("tablica2[0]")
+    println("${tablica2[0]}")
 
     val tablica3 = intArrayOf(2,3,4)
 
@@ -36,20 +37,18 @@ fun main() {
     println(tablica2)
     println(tablica3)
 
-//    if(tablica2 is Array<Int>){
-//        println("tablica2 to tablica Int")
-//    }else {
-//        println("tablica2 to tablica int")
-//    }
-//    if(tablica3 is Array<Int>){
-//        println("tablica3 to tablica Int")
-//    }else {
-//        println("tablica3 to tablica int")
-//    }
+
 
     val tablica4 = doubleArrayOf(1.0, 3.toDouble(), 7.7)
     val tablica5 = byteArrayOf(1,2,3,4)
     val tablica6 = longArrayOf(123, 12345, 1234566)
 
+
+    //deklaracja bez inicjalizacji - nie zalecane
+//    val tablica13 = Array<Int?>(5){null} // z nullami
+//    val tablica15 = Array(5){0} //rozmiar -- potem tzw. emptyObject
+//    val tablica16 = Array(5){""} //rozmiar -- potem tzw. emptyObject odpowiednik dla Stringów
+//    tablica13[1] = 17
+//    println(tablica13.contentToString())
 
 }

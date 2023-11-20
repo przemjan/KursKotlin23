@@ -9,9 +9,9 @@ fun main() {
 
 
     //poniższy kod się nie kompiluje -- nie można mieszać dowolnie nazwanych argumentów i kolejności
-    //val wynik3 = volume2(4,4)
-
-    //val wynik4 = volume2(width = 5,7)
+//    val wynik3 = volume2(4,4)
+//
+//    val wynik4 = volume2(width = 5,7)
 
 
     println(wynik1)

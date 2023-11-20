@@ -1,4 +1,4 @@
-package Zrobione.petleIPliki.randomGenerator
+package petleIPliki.randomGenerator
 
 import java.util.*
 
@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     val losowaLiczba1: Int
     val losowaLiczba2: Int
     val losowaLiczba3: Double
+
     val losowanie = Random()
 
     //losujemy randoma w całym zakresie int
@@ -15,7 +16,7 @@ fun main(args: Array<String>) {
 
 
     // losujemy randoma od 0-99
-    losowaLiczba2 = losowanie.nextInt(100)
+    losowaLiczba2 = losowanie.nextInt(90)+ 10
     println("RNG to $losowaLiczba2")
 
 

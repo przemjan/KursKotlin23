@@ -15,8 +15,6 @@ fun main() {
 
     printArray(tablicaInt)
 
-
-
 }
 
 fun printArray(tablica: IntArray){

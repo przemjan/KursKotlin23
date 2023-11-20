@@ -3,8 +3,8 @@ package funkcje.podstawy
 fun main() {
     drukuj1()
     drukuj4() // funkcja w innym pliku (helper)
-    val napis = "Programowanie funkcyjne"
-    drukuj2(napis)
+    val napis12 = "Programowanie funkcyjne"
+    drukuj2(napis12)
     drukuj2("Jest fajne")
     
 }
