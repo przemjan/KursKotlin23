@@ -1,0 +1,63 @@
+1. Klasy Employee i ProductionWorker
+Zaprojektuj klasę Employee (pracownik). Pola tej klasy powinny zawierać następujące
+informacje:
+- nazwisko pracownika,
+- numer pracownika w formacie XXX-L, gdzie X to cyfry z przedziału od 0 do 9,
+a L to litera z zakresu od A do M,
+- datę zatrudnienia (może być zwykły String).
+Następnie napisz klasę ProductionWorker (pracownik działu produkcji) pochodną od
+klasy Employee. Klasa ProductionWorker powinna obejmować pola z następującymi
+informacjami:
+- zmianą (typ int),
+- stawką godzinową (typ double).
+Dzień roboczy jest podzielony na dwie zmiany — dzienną i nocną. Pole ze zmianą
+ma zawierać liczbę całkowitą reprezentującą zmianę, na której dana osoba pracuje.
+Zmiana dzienna to 1, a zmiana nocna to 2.
+Zademonstruj działanie obu klas, pisząc program używający obiektu typu ProductionWorker.
+
+2. Klasa ShiftSupervisor
+W pewnej fabryce nadzorca zmiany to pracownik ze stałym wynagrodzeniem kontrolujący
+określoną zmianę. Oprócz pensji podstawowej nadzorca otrzymuje roczną premię,
+jeśli jego zmiana zrealizowała stawiane jej cele z zakresu produkcji. Zaprojektuj klasę
+ShiftSupervisor (nadzorca zmiany) pochodną od klasy Employee utworzonej w zadaniu
+numer 1. W klasie ShiftSupervisor powinno znajdować się pole
+przeznaczone na roczne wynagrodzenie, a także pole na roczną premię otrzymaną
+przez nadzorcę.  Zademonstruj jej działanie, pisząc program używający obiektu
+typu ShiftSupervisor.
+
+3. Klasa TeamLeader
+W pewnej fabryce kierownik zespołu to pracownik działu produkcji z wynagrodzeniem
+godzinowym zarządzający niewielkim zespołem. Oprócz wynagrodzenia godzinowego
+kierownicy zespołu otrzymują stałą premię miesięczną. Kierownicy muszą
+uczestniczyć przynajmniej w wymaganej liczbie godzin szkoleń rocznie. Zaprojektuj
+klasę TeamLeader (kierownik zespołu) pochodną od klasy ProductionWorker zaprojektowanej
+w zadaniu programistycznym numer 1. W klasie TeamLeader powinny
+znajdować się pola na kwotę miesięcznej premii, na wymaganą liczbę godzin szkoleń,
+a także na liczbę godzin już ukończonych kursów. Zademonstruj działanie tej klasy,
+pisząc program używający obiektu typu TeamLeader.
+
+4. Klasy Person i Customer
+Zaprojektuj klasę Person (osoba) zawierającą pola do przechowywania nazwiska, adresu
+i numeru telefonu danej osoby.
+Następnie zaprojektuj klasę Customer (klient), pochodną od klasy Person. Klasa Customer
+ powinna zawierać pole na numer klienta i pole logiczne z informacją, czy
+klient chce znajdować się na liście mailingowej. Zademonstruj działanie
+obiektu typu Customer w prostym programie.
+
+5. Klasa PreferredCustomer
+Sklep prowadzi program dla stałych klientów, pozwalający kupującym uzyskać zniżkę
+na wszystkie zakupy. Wartość rabatu jest zależna od łącznej sumy zakupów w danym
+sklepie:
+- Jeśli stały klient wyda 500 złotych, otrzyma 5% zniżki na wszystkie przyszłe
+zakupy.
+- Jeśli stały klient wyda 1000 złotych, otrzyma 6% zniżki na wszystkie przyszłe
+zakupy.
+- Jeśli stały klient wyda 1500 złotych, otrzyma 7% zniżki na wszystkie przyszłe
+zakupy.
+- Jeśli stały klient wyda 2000 złotych lub więcej, otrzyma 10% zniżki na wszystkie
+przyszłe zakupy.
+Zaprojektuj klasę PreferredCustomer, pochodną od klasy Customer utworzonej w zadaniu
+programistycznym numer 7. Klasa PreferredCustomer powinna zawierać pola
+z łączną wartością zakupów i poziomem rabatu. Napisz jeden lub kilka konstruktorów
+oraz odpowiednie mutatory i akcesory dla pól klasy. Zademonstruj działanie tej
+klasy w prostym programie.
