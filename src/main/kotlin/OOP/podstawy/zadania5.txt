@@ -1,0 +1,52 @@
+1. Klasa z danymi osobowymi
+Zaprojektuj klasę, która przechowuje następujące dane osobowe: imię i nazwisko,
+adres, wiek i numer telefonu. Wiek nie może być ujemny, numer telefonu ma zawierać
+przynajmniej 9 cyfr. Napisz odpowiednie akcesory i mutatory.  Zademonstruj
+działanie tej klasy. W tym celu napisz program, który tworzy trzy jej instancje.
+Jedna powinna przechowywać informacje na Twój temat, dwie pozostałe — na temat
+Twoich znajomych lub członków rodziny.
+
+2. Napisz klasę Car (samochód) zawierającą następujące pola:
+- yearModel. Właściwość typu int przechowujące rocznik samochodu.
+- make. Właściwość wskazuje obiekt typu String przechowujący markę samochodu.
+- speed. Jest to pole typu int zawierające aktualną szybkość samochodu.
+
+- Konstruktor powinien przyjmować jako argumenty rocznik i markę samochodu.
+Te wartości należy przypisać do pól yearModel i make obiektu. Ten konstruktor
+powinien przypisywać wartość 0 do pola speed.
+Funkcje:
+- accelerate. Ta funkcja powinna dodawać w każdym swoim wywołaniu 5
+do wartości pola speed.
+- brake. Ta metoda powinna odejmować w każdym swoim wywołaniu 5 od wartości
+pola speed.
+Zademonstruj działanie tej klasy w programie, który tworzy obiekt typu Car, a następnie
+pięciokrotnie wywołuje metodę accelerate. Po każdym wywołaniu tej metody program
+ma pobrać aktualną szybkość samochodu i ją wyświetlić. Następnie program
+ma wywołać pięciokrotnie metodę brake, pobrać aktualną szybkość samochodu i ją
+wyświetlić.
+
+3.Gra w kości
+Napisz program, który używa zaprezentowanej klasy Die (z modyfikacjami) do prostej
+gry w kości między komputerem a użytkownikiem.
+Program powinien obejmować pętlę z wybraną ilością iteracjami. W każdej iteracji należy rzucać
+obiema kostkami. Wyrzucenie większej liczby oczek daje zwycięstwo. W przypadku
+równej liczby oczek w danej rundzie nie ma zwycięzcy.
+W kolejnych iteracjach program powinien zliczać wygrane komputera i użytkownika.
+Po wykonaniu wszystkich iteracji pętli program ma wyświetlać, kto wygrał całą grę —
+komputer czy użytkownik.
+
+4.  Klasa Circle
+Napisz klasę Circle (koło) obejmującą następujące właściwości:
+- radius. Własciwość typu double.
+- PI. Właściwość typu double inicjowane wartością 3.14159 lub wielkością biblioteczną.
+- Konstruktor ustawiający domyślną wartość pola radius na 0.0.
+Funkcje:
+- area. Zwraca powierzchnię koła obliczaną za pomocą wzoru:
+    area = PI * radius * radius
+- diameter. Zwraca średnicę koła obliczaną według wzoru: diameter = radius * 2
+- circumference. Zwraca obwód koła obliczany za pomocą wzoru: circumference = 2 * PI * radius
+Napisz program demonstrujący działanie klasy Circle. Program powinien wyświetlać
+prośbę o podanie promienia koła, tworzyć obiekt typu Circle, a następnie podawać
+powierzchnię, średnicę i obwód danego koła. Zastanów się które funkcje powinny
+być getterami właściwości.
+
