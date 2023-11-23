@@ -1,0 +1,37 @@
+1.
+Zaprojektuj interfejs steerable (sterowalny), który zawiera dwie metody abstrakcyjne:
+- turnLeft()
+- turnRight()
+
+Zaprojektuj klasę abstrakcyjną Vehicle (pojazd), implementującą interfejs Steerable
+ zawierającą następujące składowe:
+- pole z wagą pojazdu (typ Int),
+- pole z rokiem produkcji pojazdu (typ String),
+- metodę accelerate (umożliwiającą przyspieszanie)
+- metodą decelerate (umożliwiającą hamowanie)
+
+Zaprojektuj klasę Ship (statek) pochodną od klasy Vehicle zawierającą następujące składowe:
+- pole z nazwą statku (typ String),
+- pole z rokiem budowy statku (typ String)
+- metodę accelerate (umożliwiającą przyspieszanie) z domyślną implementacją,
+- abstrakcyjną metodą decelerate (umożliwiającą hamowanie).
+
+Zaprojektuj klasę CruiseShip (statek wycieczkowy), pochodną od klasy Ship. Klasa
+CruiseShip powinna obejmować następujące składowe:
+- pole z maksymalną liczbą pasażerów,
+- pole z ilością kabin,
+- pole zawierające aktualną prędkość (typ Int),
+- metodą visitPort(), wyświetlającą port, jaki jest odwiedzany,
+- metodę accelerate (umożliwiającą przyspieszanie),
+- metodą decelerate (umożliwiającą hamowanie).
+
+Zaprojektuj klasę CargoShip (statek towarowy), pochodną od klasy Ship. Klasa Cargo
+Ship powinna obejmować następujące składowe:
+- pole z ładownością w tonach (typ int),
+- pole z ilością wolnego miejsca w tonach(typ int),
+- pole zawierające aktualną prędkość(typ Int),
+- metodą load() - załadunek,
+- metodą unload() - rozładunek,
+- metodę accelerate (umożliwiającą przyspieszanie),
+- metodą decelerate (umożliwiającą hamowanie).
+
