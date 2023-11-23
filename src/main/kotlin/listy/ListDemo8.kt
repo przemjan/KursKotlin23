@@ -33,13 +33,14 @@ fun main() {
 
 
     val myListIterator3 = myNamesList.listIterator()
-    while(myListIterator3.hasNext()){
 
+    while(myListIterator3.hasNext()){
         if(myListIterator3.next().length >= 8){
             myListIterator3.remove()
         }
-
     }
+
+
     println(myNamesList)
 
     //alternatywnie funkcja usuwająca jeżeli spełniony jest warunek

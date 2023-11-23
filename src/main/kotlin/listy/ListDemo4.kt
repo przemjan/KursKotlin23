@@ -5,8 +5,9 @@ fun main() {
     // Możemy również użyć bezpośrednio ArrayList --- wtedy lista będzie modyfikowalna
 
     val myCitiesList = arrayListOf("Kraków", "Bytom", "Poznań", "Gdańsk")
+
     //pusta ArrayList z rozmiarem początkowym lub bez
-    val myCountriesList = ArrayList<String>(13)
+    val myCountriesList = ArrayList<String>(16)
 
     println(myCitiesList)
     myCountriesList.add("Belgium")

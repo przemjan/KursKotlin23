@@ -6,15 +6,16 @@ fun main() {
     val myNamesList = mutableListOf("Zenon", "Arnold", "Karen", "Susan", "Janusz", "Euzebiusz")
 
     // pętla for dla kolekcji
-    for(name in myNamesList){
-        println(name)
+    for(value in myNamesList){
+        println(value)
         // nie można modyfikować zawartości kolekcji - poniższa linia się nie kompiluje
-        //name = "Franek"
+        //value = "Franek"
     }
 
     //iterator
 
     val myIterator = myNamesList.iterator()
+
     while(myIterator.hasNext()){
         println("Hi! ${myIterator.next()}")
     }
@@ -25,6 +26,12 @@ fun main() {
         println("Hello! ${myIterator.next()}")
     }
 
+    //forEach
+
+    myNamesList.forEach{println(it)}
+
+    //starsza składnia
+    myNamesList.forEach{it -> println(it)}
 
 
     //tradycyjnie (można modyfikować)
@@ -37,4 +44,6 @@ fun main() {
     for(i in myNamesList.indices){
         println("Z indeksami: $i ${myNamesList[i]}")
     }
+
+
 }

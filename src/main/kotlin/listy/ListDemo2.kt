@@ -12,6 +12,7 @@ fun main() {
 
 
     println("0. $countries rozmiar: ${countries.size}")
+
     // na końcu:
     countries.add("USA")
     continents.add("Africa")
@@ -22,6 +23,7 @@ fun main() {
 
     println("1. $countries rozmiar: ${countries.size}")
     // w dowolnym miejscu:
+    
     countries.add(3, "Canada")
     println("2. $countries rozmiar: ${countries.size}")
 

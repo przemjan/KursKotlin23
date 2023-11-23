@@ -1,0 +1,13 @@
+1a. Napisz klasę PhoneBookEntry z polami zawierającymi nazwisko i numer telefonu. Ta
+Następnie stwórz klasę PhoneBook zawierającą właściwość przechowującą obiekty typu PhoneBookEntry
+w liście modyfikowalnej.
+Następnie napisz program, który tworzy przynajmniej pięć obiektów typu PhoneBookEntry i zapisuje
+je w obiekcie typu ArrayList. Następnie wyświetl zawartość książki telefonicznej.
+
+1b. Stwórz interfejs Callable z metodą Call. Zaimplementuj ten interfejs w klasie PhoneBook.
+1c. W programie zadzwoń do wszystkich użytkowników.
+1d. Dołącz właściwość email do obiektu PhoneBookEntry, napisz interfejs Writable z metodą sendEmail,
+i zaimplementuj go w klasie PhoneBook.
+1e. W programie pobierz od użytkownika literę i wyślij maile do wszystkich użytkowników, których nazwiska
+zaczynają się na tę literę.
+

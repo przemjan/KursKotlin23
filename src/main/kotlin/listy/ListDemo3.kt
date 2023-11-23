@@ -16,6 +16,7 @@ fun main() {
 
     println(cars)
     //cars.add("zupa")
+
     cars = mutableListOf("Londyn", "Warszawa")
     println(cars)
 
@@ -28,7 +29,7 @@ fun main() {
     //to się niekompiluje
 
 
-    //cars = mapOf("Kapusta", "Pomidor")
+    //cars = mapOf("Kapusta" to 1, "Pomidor" to 2)
 
 
 

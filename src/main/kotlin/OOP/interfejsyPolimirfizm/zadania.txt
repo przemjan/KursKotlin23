@@ -1,5 +1,5 @@
 1.
-Zaprojektuj interfejs steerable (sterowalny), który zawiera dwie metody abstrakcyjne:
+Zaprojektuj interfejs Steerable (sterowalny), który zawiera dwie metody abstrakcyjne:
 - turnLeft()
 - turnRight()
 

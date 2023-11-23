@@ -1,4 +1,4 @@
-package doZrobienia.kolekcje
+package listy
 
 fun main() {
     val myNamesList = listOf("Janek", "Franek", "Gienek", "Zosia")
