@@ -1,8 +1,9 @@
-package doZrobienia.kolekcje
+package kolekcje.sety
 
 fun main() {
 
     //sety modyfikowalne
+    //domyślnie linkedHashSet
 
     val nameSet1 = mutableSetOf("Janek", "Franek", "Józek", "Euzebiusz")
 
@@ -15,7 +16,11 @@ fun main() {
 
     println(nameSet1)
 
+    //dodawanie zwraca wartość logiczną
+    //jeżeli element był już w zbiorze to nie wyrzuca błędu,
+    //ale zwraca false
     val isAdded: Boolean = nameSet1.add("Janek")
+
     if(isAdded) {
         println(nameSet1)
     }else{

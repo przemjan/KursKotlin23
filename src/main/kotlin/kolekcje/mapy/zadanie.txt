@@ -1,0 +1,11 @@
+1a
+Dana jest hashmapa:
+    val currencyMap = hashMapOf("USD" to hashMapOf("PLN" to 3.99, "EUR" to 0.91))
+
+Dopisz do tej mapy 2 wybrane waluty. Napisz program, który umożliwia użytkownikowi wybranie waluty i ilości,
+a następnie wyświetla wyniki konwersji USD do wybranej waluty. Możesz skonstruować menu dla użytkownika lub użytkownik może
+wpisywać nazwy walut. Zadbaj o walidację i przechwycenie ewentualnych błędów użytkownika przy wpisywaniu wartości.
+1b Dołóż kolejne hashmapy wg wzoru:
+val currencyMap = hashMapOf("USD" to hashMapOf("PLN" to 3.99, "EUR" to 0.91),"EUR" to hashMapOf("PLN" to 11.99, "USD" to 11.91))
+Napisz program, który umożliwia użytkownikowi wybór dowolnej waluty
+i przekonwertowanie na dowolną walutę spośród wybranych walut.

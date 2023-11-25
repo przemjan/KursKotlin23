@@ -1,8 +1,8 @@
-package doZrobienia.kolekcje
+package kolekcje.sety
 
 fun main() {
 
-    //set - zbiór unikalnych elementów (ńie powtarzają się)
+    //set - zbiór unikalnych elementów (nie powtarzają się)
 
     // immutable set
     //domyślna implementacja: LinkedHashSet
@@ -10,7 +10,7 @@ fun main() {
 
     val wanted = 2
 
-    //sprawdzanie czy set zawiera wartość
+    //sprawdzanie, czy set zawiera wartość
     if (intSet1.contains(wanted)){
         println("$wanted is in the set")
     }
@@ -32,6 +32,7 @@ fun main() {
 
     //tworzenie pustego setu -- niemodyfikowalny - nie można nic dodać
     val intSet3 = setOf<Int>()
+    val intSet4 = emptySet<Int>()
 
     //to się nie kompiluje
     //intSet3.add(3)
