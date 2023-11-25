@@ -21,6 +21,7 @@ fun main() {
     }else{
         println("to są inne osoby")
     }
+
     val osoba3 = osoba1
 
     if(osoba1 === osoba3){

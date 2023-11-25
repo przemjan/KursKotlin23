@@ -6,7 +6,7 @@ fun main() {
 
     val osoba2 = Person("Jerzy", 123)
 
-    //automatyczna  funkcja equals
+    //automatyczna funkcja equals
 
     if(osoba1 == osoba2){
         println("te osoby są takie same")

@@ -1,0 +1,9 @@
+źródła:
+	książki:
+	Kotlin in Action Dmitry Jemerov Svetlana Isakova
+	Kotlin w akcji Dmitry Jemerov Svetlana Isakova
+	Kotlin rusz głową Dawn Griffiths, David Griffiths
+	
+	strony:
+	https://developer.android.com/get-started/codelabs
+	https://kotlinlang.org/docs/home.html

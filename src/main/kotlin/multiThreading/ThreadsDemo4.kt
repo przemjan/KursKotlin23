@@ -14,7 +14,6 @@ fun main() {
             }
         }
         println("${Thread.currentThread()} działa 1")
-
     }
 
     thread(start = true){
